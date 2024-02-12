@@ -7,7 +7,7 @@ import Bot from './Bot';
 function App() {
  const [selectedCategory, setSelectedCategory] = useState("All");
 const [bots,setBots]= useState([]);
-const [shoppingCart, setShoppingCart] = useState([]);
+const [armyCart, setArmyCart] = useState([]);
 
   useEffect(() =>{
     fetch('http://localhost:3000/bots')
@@ -21,13 +21,13 @@ const [shoppingCart, setShoppingCart] = useState([]);
   },[]);
 
   function handleDeleteBot(deletedBot) {
-   // console.log("In ShoppingCart:", deletedBot);
+   // console.log("In ArmyCart:", deletedBot);
    const updatedBots = bots.filter((bot) => bot.id !== deletedBot.id);
   setBots(updatedBots);
   }
 
   function handleUpdateBot(updatedBot) {
-   // console.log("In ShoppingCart:", updatedBot);
+   // console.log("In ArmyCart:", updatedBot);
    const updatedBots = bots.map((bot) => {
     if (bot.id === updatedBot.id) {
       return updatedBot;
@@ -64,8 +64,8 @@ const [shoppingCart, setShoppingCart] = useState([]);
       {botsToDisplay.map((bot) => (
         <Bot key={bot.id} 
         bot={bot} 
-        shoppingCart={shoppingCart}
-            setShoppingCart={setShoppingCart}
+        armyCart={armyCart}
+            setArmyCart={setArmyCart}
         onUpdateBot={handleUpdateBot} 
         onDeleteBot={handleDeleteBot}/>
       ))}

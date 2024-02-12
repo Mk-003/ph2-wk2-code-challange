@@ -54,3 +54,23 @@ footer {
   color: white;
   text-align: center;
 }
+.bot-image {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.bot-item {
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
