@@ -1,12 +1,13 @@
 
+
 import './App.css';
 import React,{ useEffect,useState } from 'react';  
-import BotCollection from './BotCollection';
-
+import BotForm from './BotForm';
+import Bot from './Bot';
 function App() {
  const [selectedCategory, setSelectedCategory] = useState("All");
 const [bots,setBots]= useState([]);
-
+const [shoppingCart, setShoppingCart] = useState([]);
 
   useEffect(() =>{
     fetch('http://localhost:3000/bots')
@@ -19,8 +20,22 @@ const [bots,setBots]= useState([]);
     })
   },[]);
 
-  function handleUpdateItem(updatedItem) {
-    console.log("In ShoppingCart:", updatedItem);
+  function handleDeleteBot(deletedBot) {
+   // console.log("In ShoppingCart:", deletedBot);
+   const updatedBots = bots.filter((bot) => bot.id !== deletedBot.id);
+  setBots(updatedBots);
+  }
+
+  function handleUpdateBot(updatedBot) {
+   // console.log("In ShoppingCart:", updatedBot);
+   const updatedBots = bots.map((bot) => {
+    if (bot.id === updatedBot.id) {
+      return updatedBot;
+    } else {
+      return bot;
+    }
+  });
+  setBots(updatedBots);
   }
 
   function handleAddBot(newBot) {
@@ -43,13 +58,16 @@ const [bots,setBots]= useState([]);
     <div className="ShoppingList">
     {/* add the onAddItem prop! */}
     <BotForm onAddBot={handleAddBot} />
-    <Filter
-      category={selectedCategory}
+   
+     category={selectedCategory}
       onCategoryChange={handleCategoryChange}
-    />
+    
     <ul className="Bots">
       {botsToDisplay.map((bot) => (
-        <BOT key={bot.id} item={bot} onUpdateItem={handleUpdateItem} />
+        <Bot key={bot.id} 
+        bot={bot} 
+        onUpdateBot={handleUpdateBot} 
+        onDeleteBot={handleDeleteBot}/>
       ))}
     </ul>
   </div>
@@ -57,3 +75,4 @@ const [bots,setBots]= useState([]);
 }
 
 export default App;
+

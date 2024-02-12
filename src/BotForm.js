@@ -1,15 +1,9 @@
-//creating Bots
-function BotForm() {
+import React, { useState } from "react";
+
+function BotForm({ onAddBot }) {
     const [name, setName] = useState("");
     const [category, setCategory] = useState("");
   
-    // Add function to handle submissions
-    function handleSubmit(e) {
-      e.preventDefault();
-      console.log("name:", name);
-      console.log("category:", category);
-    }
-
     function handleSubmit(e) {
         e.preventDefault();
         const botData = {
@@ -25,13 +19,34 @@ function BotForm() {
           body: JSON.stringify(botData),
         })
           .then((r) => r.json())
-          .then((newBot) => onAddBot(newBot));
-      }
+          .then((newBot) => {
+            onAddBot(newBot);
+            setName("");
+            setCategory("");
+          })
+          .catch((error) => {
+            console.error('Error adding bot:', error);
+          });
+    }
   
     return (
-      // Set up the form to call handleSubmit when the form is submitted
       <form className="NewItem" onSubmit={handleSubmit}>
-        {/** ...form inputs here */}
+        {/* Input fields */}
+        <input
+            type="text"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+        />
+        <input
+            type="text"
+            placeholder="Category"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+        />
+        <button type="submit">Add Bot</button>
       </form>
     );
-  }
+}
+
+export default BotForm;
