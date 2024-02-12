@@ -27,12 +27,16 @@ const addToYourBotArmy = (botId) => {
   }
 };
 
+//releaseBot
+const releaseBot = (botId) => {
+  const updatedArmy = yourBotArmy.filter(bot => bot.id !== botId);
+  setYourBotArmy(updatedArmy);};
 
   return (
     <div className="App">
       <h1>TEAM MAMIO </h1>
-      <BotCollection bots={bots} addToYourBotArmy={addToYourBotArmy} />
-      <YourBotArmy bots={yourBotArmy} />
+      <BotCollection bots={bots} addToYourBotArmy={addToYourBotArmy} deleteBot={deleteBot} />
+      <YourBotArmy bots={yourBotArmy} releaseBot={releaseBot}/>
     </div>
   );
 }

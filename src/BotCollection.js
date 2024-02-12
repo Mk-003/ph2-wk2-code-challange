@@ -1,6 +1,30 @@
 
 
     const BotCollection = ({ bots }) => {
+
+//DELETE BOTS COMPLETELY
+const [bots, setBots] = useState([...]); // Initial bot state
+
+const deleteBot = (botId) => {
+    // Make an API call to delete the bot from the backend
+    fetch(`/api/bots/${botId}`, {
+        method: 'DELETE'
+    })
+    .then(response => {
+        if (response.ok) {
+            // If successful, update the state to remove the deleted bot
+            setBots(bots.filter(bot => bot.id !== botId));
+        } else {
+            // Handle error
+            console.error('Failed to delete bot');
+        }
+    })
+    .catch(error => {
+        // Handle error
+        console.error('Error:', error);
+    });
+};
+
         const groupedBots = bots.reduce((acc, bot) => {
           if (!acc[bot.bot_class]) {
             acc[bot.bot_class] = [];

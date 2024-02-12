@@ -1,6 +1,10 @@
 import React from 'react';
 
 const YourBotArmy = ({ bots }) => {
+    // Function to handle releasing a bot from the army
+    const handleRelease = (botId) => {
+        releaseBot(botId);
+    };
     return (
         <div>
             <h3>Your Bot Army</h3>
@@ -13,6 +17,8 @@ const YourBotArmy = ({ bots }) => {
                         <p>Armor: {bot.armor}</p>
                         <p>Bot Class: {bot.bot_class}</p>
                         <img src={bot.avatar_url} alt={bot.name} style={{ width: '100px', height: '200px' }} />
+                        {/* btn releasing bot from army*/}
+                        <button onClick={() => handleRelease(bot.id)}>Release</button>
                     </div>
                 ))}
             </div>
