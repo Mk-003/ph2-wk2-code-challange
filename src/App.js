@@ -2,11 +2,11 @@
 import './App.css';
 import React,{ useEffect,useState } from 'react';  
 import BotCollection from './BotCollection';
-import YourBotArmy from './YourBotArmy';
-function App() {
 
+function App() {
+ const [selectedCategory, setSelectedCategory] = useState("All");
 const [bots,setBots]= useState([]);
-const [yourBotArmy, setYourBotArmy] = useState([]);
+
 
   useEffect(() =>{
     fetch('http://localhost:3000/bots')
@@ -19,25 +19,40 @@ const [yourBotArmy, setYourBotArmy] = useState([]);
     })
   },[]);
 
-//add bot to army
-const addToYourBotArmy = (botId) => {
-  const selectedBot = bots.find(bot => bot.id === botId);
-  if (selectedBot && !yourBotArmy.includes(selectedBot)) {
-      setYourBotArmy([...yourBotArmy, selectedBot]);
+  function handleUpdateItem(updatedItem) {
+    console.log("In ShoppingCart:", updatedItem);
   }
-};
 
-//releaseBot
-const releaseBot = (botId) => {
-  const updatedArmy = yourBotArmy.filter(bot => bot.id !== botId);
-  setYourBotArmy(updatedArmy);};
+  function handleAddBot(newBot) {
+    setBots([...bots, newBot])  ;
+  }
+
+  function handleCategoryChange(category) {
+    setSelectedCategory(category);
+  }
+
+  const botsToDisplay = bots.filter((bot) => {
+    if (selectedCategory === "All") return true;
+
+    return bot.category === selectedCategory;
+  });
+  
+
 
   return (
-    <div className="App">
-      <h1>TEAM MAMIO </h1>
-      <BotCollection bots={bots} addToYourBotArmy={addToYourBotArmy} deleteBot={deleteBot} />
-      <YourBotArmy bots={yourBotArmy} releaseBot={releaseBot}/>
-    </div>
+    <div className="ShoppingList">
+    {/* add the onAddItem prop! */}
+    <BotForm onAddBot={handleAddBot} />
+    <Filter
+      category={selectedCategory}
+      onCategoryChange={handleCategoryChange}
+    />
+    <ul className="Bots">
+      {botsToDisplay.map((bot) => (
+        <BOT key={bot.id} item={bot} onUpdateItem={handleUpdateItem} />
+      ))}
+    </ul>
+  </div>
   );
 }
 
