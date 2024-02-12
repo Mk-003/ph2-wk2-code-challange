@@ -10,7 +10,8 @@
       "catchphrase": "1010010101001101100011000111101",
       "avatar_url": "https://robohash.org/nostrumrepellendustenetur.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.800Z",
-      "updated_at": "2018-10-02T19:55:10.800Z"
+      "updated_at": "2018-10-02T19:55:10.800Z",
+      "isInCart": true
     },
     {
       "id": "102",
@@ -47,31 +48,6 @@
       "avatar_url": "https://robohash.org/corruptieaqueexcepturi.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.856Z",
       "updated_at": "2018-10-02T19:55:10.856Z"
-    },
-    {
-      "id": "105",
-      "name": "G`t-65",
-      "health": 62,
-      "damage": 98,
-      "armor": 31,
-      "bot_class": "Assault",
-      "catchphrase": "010101111110111111101101010110010100101",
-      "avatar_url": "https://robohash.org/nisinequequas.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.867Z",
-      "updated_at": "2018-10-02T19:55:10.867Z"
-    },
-    {
-      "id": "106",
-      "name": "TI-09",
-      "health": 81,
-      "damage": 39,
-      "armor": 52,
-      "bot_class": "Support",
-      "catchphrase": "00111100111001011111110010110111",
-      "avatar_url": "https://robohash.org/etutprovident.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.887Z",
-      "updated_at": "2018-10-02T19:55:10.887Z",
-      "isInCart": true
     },
     {
       "id": "107",
@@ -399,18 +375,6 @@
       "avatar_url": "https://robohash.org/vitaeutporro.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.501Z",
       "updated_at": "2018-10-02T19:55:11.501Z"
-    },
-    {
-      "id": "134",
-      "name": "xG-91",
-      "health": 40,
-      "damage": 33,
-      "armor": 81,
-      "bot_class": "Defender",
-      "catchphrase": "11101000001100011110000010000111101",
-      "avatar_url": "https://robohash.org/oditdoloresullam.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.528Z",
-      "updated_at": "2018-10-02T19:55:11.528Z"
     },
     {
       "id": "135",
@@ -869,7 +833,8 @@
       "catchphrase": "110001010000010100100110001001010010011",
       "avatar_url": "https://robohash.org/eosquasiblanditiis.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.162Z",
-      "updated_at": "2018-10-02T19:55:12.162Z"
+      "updated_at": "2018-10-02T19:55:12.162Z",
+      "isInCart": true
     },
     {
       "id": "177",
@@ -929,7 +894,8 @@
       "catchphrase": "1111000010010001110101100101010",
       "avatar_url": "https://robohash.org/architectocorruptiaccusantium.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.245Z",
-      "updated_at": "2018-10-02T19:55:12.245Z"
+      "updated_at": "2018-10-02T19:55:12.245Z",
+      "isInCart": true
     },
     {
       "id": "182",
@@ -1158,6 +1124,30 @@
       "avatar_url": "https://robohash.org/teneturquaereiciendis.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.537Z",
       "updated_at": "2018-10-02T19:55:12.537Z"
+    },
+    {
+      "id": "0fba",
+      "name": "vnm",
+      "category": "nbv",
+      "isInCart": false
+    },
+    {
+      "id": "a877",
+      "name": "wHz-93wHz-93",
+      "category": "cvv",
+      "isInCart": false
+    },
+    {
+      "id": "73cf",
+      "name": "",
+      "category": "",
+      "isInCart": false
+    },
+    {
+      "id": "3232",
+      "name": "",
+      "category": "",
+      "isInCart": false
     }
   ]
 }

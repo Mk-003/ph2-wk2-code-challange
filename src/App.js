@@ -59,13 +59,13 @@ const [shoppingCart, setShoppingCart] = useState([]);
     {/* add the onAddItem prop! */}
     <BotForm onAddBot={handleAddBot} />
    
-     category={selectedCategory}
-      onCategoryChange={handleCategoryChange}
-    
+    <h1>MAWOWO GAMERS</h1>
     <ul className="Bots">
       {botsToDisplay.map((bot) => (
         <Bot key={bot.id} 
         bot={bot} 
+        shoppingCart={shoppingCart}
+            setShoppingCart={setShoppingCart}
         onUpdateBot={handleUpdateBot} 
         onDeleteBot={handleDeleteBot}/>
       ))}
