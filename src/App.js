@@ -4,6 +4,7 @@ import './App.css';
 import React,{ useEffect,useState } from 'react';  
 import BotForm from './BotForm';
 import Bot from './Bot';
+
 function App() {
  const [selectedCategory, setSelectedCategory] = useState("All");
 const [bots,setBots]= useState([]);
@@ -56,6 +57,8 @@ const [armyCart, setArmyCart] = useState([]);
 
   return (
     <div className="ArmyList">
+
+
     {/* add the onAddItem prop! */}
     <BotForm onAddBot={handleAddBot} />
    
@@ -70,6 +73,7 @@ const [armyCart, setArmyCart] = useState([]);
         onDeleteBot={handleDeleteBot}/>
       ))}
     </ul>
+    
   </div>
   );
 }

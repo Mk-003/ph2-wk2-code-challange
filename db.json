@@ -1078,12 +1078,6 @@
       "isInCart": false
     },
     {
-      "id": "73cf",
-      "name": "",
-      "category": "",
-      "isInCart": true
-    },
-    {
       "id": "3232",
       "name": "",
       "category": "",
@@ -1123,7 +1117,13 @@
       "id": "ffe9",
       "name": "",
       "category": "",
-      "isInCart": false
+      "isInCart": true
+    },
+    {
+      "id": "9cf6",
+      "name": "Dembad ",
+      "category": "Fighter",
+      "isInCart": true
     }
   ]
 }
