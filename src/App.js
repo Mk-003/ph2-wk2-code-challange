@@ -55,7 +55,7 @@ const [armyCart, setArmyCart] = useState([]);
 
 
   return (
-    <div className="ShoppingList">
+    <div className="ArmyList">
     {/* add the onAddItem prop! */}
     <BotForm onAddBot={handleAddBot} />
    

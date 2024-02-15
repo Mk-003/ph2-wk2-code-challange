@@ -18,7 +18,7 @@
                          <p>Health: {bot.health}</p>
                          <p>Armor: {bot.armor}</p>
                          <p>Bot_class: {bot.bot_class}</p>
-                         <img src={bot.avatar_url} alt={bot.name} style={{width: '100px', height: '200px'}} />
+                       {/*  <img src={bot.avatar_url} alt={bot.name} style={{width: '100px', height: '200px'}} />*/}
                     </li>
                 ))}
             </ol>

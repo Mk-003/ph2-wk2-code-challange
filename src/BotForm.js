@@ -30,10 +30,11 @@ function BotForm({ onAddBot }) {
     }
   
     return (
-      <form className="NewItem" onSubmit={handleSubmit}>
+      <form  className="NewItem" onSubmit={handleSubmit}>
         {/* Input fields */}
         <input
             type="text"
+            id="submit"
             placeholder="Name"
             value={name}
             onChange={(e) => setName(e.target.value)}

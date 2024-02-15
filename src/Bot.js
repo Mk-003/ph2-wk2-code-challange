@@ -25,7 +25,7 @@ function Bot({ bot, onUpdateBot, onDeleteBot }) {
   
     return (
       <li className={bot.isInCart ? "in-cart" : ""}>
-        <img src={bot.avatarUrl} alt={bot.name} style={{width: '300px', height: '500px'}} />
+        <img src={bot.avatar_url} alt={bot.name} style={{width: '200px', height: '300px'}} />
         <span>{bot.name}</span>
       {/* <span className="category">{bot.category}</span>*/}
         {/* add the onClick listener */}
