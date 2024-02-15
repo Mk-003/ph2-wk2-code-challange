@@ -1,76 +1,117 @@
-/* General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #8e6092;
 }
 
-/* Header styles */
-header {
-  background-color: #222;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-/* Main content styles */
-main {
-  padding: 20px;
-}
-
-/* Bot card styles */
-.bot-card {
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
+.ShoppingList {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
-.avatar {
-  width: 50px;
-  height: 50px;
+.Bots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Bots li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+.Bots li img {
   border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-}
-
-.bot-name {
-  font-size: 24px;
   margin-bottom: 10px;
 }
 
-.bot-category {
-  font-size: 18px;
-  color: hsl(130, 53%, 61%);
+.Bots li span {
+  margin-bottom: 10px;
 }
 
-/* Footer styles */
-footer {
-  background-color: #222;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-.bot-image {
-  width: 100%;
-  height: auto;
-}
-
-body {
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-
-h1 {
-  color: #333;
-}
-
-.bot-item {
-  margin: 10px;
-  padding: 20px;
-  background-color: #fff;
+.Bots button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
   border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Bots button:hover {
+  background-color: #3e8e41;
+}
+
+.Bots .remove {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.Bots .remove:hover {
+  background-color: #da190b;
+}
+
+.in-cart {
+  border-color: #4CAF50;
+}
+
+.in-cart .add {
+  background-color: #3e8e41;
+}
+
+.in-cart .add:hover {
+  background-color: #286d3a;
+}
+
+.in-cart .remove {
+  background-color: #f44336;
+}
+
+.in-cart .remove:hover {
+  background-color: #da190b;
+}
+
+.NewItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewItem input {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.NewItem input:focus {
+  outline: none;
+  box-shadow: 0 0 3px #4CAF50;
+}
+
+.NewItem button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.NewItem button:hover {
+  background-color: #3e8e41;
 }
