@@ -1,7 +1,8 @@
+
 {
   "bots": [
     {
-      "id": "101",
+      "id": 101,
       "name": "wHz-93",
       "health": 94,
       "damage": 20,
@@ -10,11 +11,34 @@
       "catchphrase": "1010010101001101100011000111101",
       "avatar_url": "https://robohash.org/nostrumrepellendustenetur.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.800Z",
-      "updated_at": "2018-10-02T19:55:10.800Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:10.800Z"
     },
     {
-      "id": "104",
+      "id": 102,
+      "name": "RyM-66",
+      "health": 86,
+      "damage": 36,
+      "armor": 77,
+      "bot_class": "Medic",
+      "catchphrase": "0110011100000100011110100110011000011001",
+      "avatar_url": "https://robohash.org/quidemconsequaturaut.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.827Z",
+      "updated_at": "2018-10-02T19:55:10.827Z"
+    },
+    {
+      "id": 103,
+      "name": "P-24",
+      "health": 88,
+      "damage": 25,
+      "armor": 60,
+      "bot_class": "Witch",
+      "catchphrase": "1100101001110111110010011010110",
+      "avatar_url": "https://robohash.org/idetcumque.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.844Z",
+      "updated_at": "2018-10-02T19:55:10.844Z"
+    },
+    {
+      "id": 104,
       "name": "qq-69",
       "health": 74,
       "damage": 29,
@@ -23,11 +47,34 @@
       "catchphrase": "00011101001001000000101100001100110",
       "avatar_url": "https://robohash.org/corruptieaqueexcepturi.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.856Z",
-      "updated_at": "2018-10-02T19:55:10.856Z",
-      "isInCart": false
+      "updated_at": "2018-10-02T19:55:10.856Z"
     },
     {
-      "id": "107",
+      "id": 105,
+      "name": "G`t-65",
+      "health": 62,
+      "damage": 98,
+      "armor": 31,
+      "bot_class": "Assault",
+      "catchphrase": "010101111110111111101101010110010100101",
+      "avatar_url": "https://robohash.org/nisinequequas.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.867Z",
+      "updated_at": "2018-10-02T19:55:10.867Z"
+    },
+    {
+      "id": 106,
+      "name": "TI-09",
+      "health": 81,
+      "damage": 39,
+      "armor": 52,
+      "bot_class": "Support",
+      "catchphrase": "00111100111001011111110010110111",
+      "avatar_url": "https://robohash.org/etutprovident.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:10.887Z",
+      "updated_at": "2018-10-02T19:55:10.887Z"
+    },
+    {
+      "id": 107,
       "name": "XSf-63",
       "health": 97,
       "damage": 26,
@@ -39,7 +86,7 @@
       "updated_at": "2018-10-02T19:55:10.899Z"
     },
     {
-      "id": "108",
+      "id": 108,
       "name": "m-76",
       "health": 65,
       "damage": 90,
@@ -48,11 +95,10 @@
       "catchphrase": "1101111100001011111011011001011110010000",
       "avatar_url": "https://robohash.org/blanditiisautlaudantium.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.915Z",
-      "updated_at": "2018-10-02T19:55:10.915Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:10.915Z"
     },
     {
-      "id": "109",
+      "id": 109,
       "name": "hjk-40",
       "health": 75,
       "damage": 84,
@@ -61,11 +107,10 @@
       "catchphrase": "11010100110000100001110001100000010111101000001100",
       "avatar_url": "https://robohash.org/quirationerem.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:10.940Z",
-      "updated_at": "2018-10-02T19:55:10.940Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:10.940Z"
     },
     {
-      "id": "110",
+      "id": 110,
       "name": "Nb-70",
       "health": 64,
       "damage": 86,
@@ -77,7 +122,7 @@
       "updated_at": "2018-10-02T19:55:11.004Z"
     },
     {
-      "id": "111",
+      "id": 111,
       "name": "ya-81",
       "health": 56,
       "damage": 22,
@@ -89,7 +134,7 @@
       "updated_at": "2018-10-02T19:55:11.017Z"
     },
     {
-      "id": "112",
+      "id": 112,
       "name": "jDn-31",
       "health": 52,
       "damage": 93,
@@ -101,7 +146,7 @@
       "updated_at": "2018-10-02T19:55:11.032Z"
     },
     {
-      "id": "113",
+      "id": 113,
       "name": "x-27",
       "health": 80,
       "damage": 22,
@@ -113,7 +158,7 @@
       "updated_at": "2018-10-02T19:55:11.046Z"
     },
     {
-      "id": "114",
+      "id": 114,
       "name": "lGp-46",
       "health": 67,
       "damage": 21,
@@ -125,7 +170,7 @@
       "updated_at": "2018-10-02T19:55:11.062Z"
     },
     {
-      "id": "115",
+      "id": 115,
       "name": "qr-06",
       "health": 92,
       "damage": 37,
@@ -137,7 +182,7 @@
       "updated_at": "2018-10-02T19:55:11.093Z"
     },
     {
-      "id": "116",
+      "id": 116,
       "name": "o-44",
       "health": 51,
       "damage": 90,
@@ -146,11 +191,10 @@
       "catchphrase": "10001111010110110100111010011000011001100",
       "avatar_url": "https://robohash.org/temporibusexercitationemprovident.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.119Z",
-      "updated_at": "2018-10-02T19:55:11.119Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.119Z"
     },
     {
-      "id": "117",
+      "id": 117,
       "name": "VL-37",
       "health": 74,
       "damage": 37,
@@ -159,11 +203,10 @@
       "catchphrase": "01110101111110001001100000101011111001",
       "avatar_url": "https://robohash.org/eiuslaborumaliquid.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.133Z",
-      "updated_at": "2018-10-02T19:55:11.133Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.133Z"
     },
     {
-      "id": "118",
+      "id": 118,
       "name": "s-96",
       "health": 56,
       "damage": 92,
@@ -172,11 +215,10 @@
       "catchphrase": "110001011001010111010010110110000011110011100",
       "avatar_url": "https://robohash.org/autearem.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.162Z",
-      "updated_at": "2018-10-02T19:55:11.162Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.162Z"
     },
     {
-      "id": "119",
+      "id": 119,
       "name": "GQ-40",
       "health": 78,
       "damage": 37,
@@ -188,7 +230,7 @@
       "updated_at": "2018-10-02T19:55:11.191Z"
     },
     {
-      "id": "120",
+      "id": 120,
       "name": "\\-86",
       "health": 56,
       "damage": 39,
@@ -200,7 +242,7 @@
       "updated_at": "2018-10-02T19:55:11.203Z"
     },
     {
-      "id": "121",
+      "id": 121,
       "name": "wa-81",
       "health": 49,
       "damage": 81,
@@ -212,7 +254,7 @@
       "updated_at": "2018-10-02T19:55:11.213Z"
     },
     {
-      "id": "122",
+      "id": 122,
       "name": "xa-49",
       "health": 67,
       "damage": 95,
@@ -224,7 +266,7 @@
       "updated_at": "2018-10-02T19:55:11.224Z"
     },
     {
-      "id": "123",
+      "id": 123,
       "name": "^z-24",
       "health": 41,
       "damage": 21,
@@ -236,7 +278,7 @@
       "updated_at": "2018-10-02T19:55:11.242Z"
     },
     {
-      "id": "124",
+      "id": 124,
       "name": "b-75",
       "health": 84,
       "damage": 30,
@@ -248,7 +290,7 @@
       "updated_at": "2018-10-02T19:55:11.256Z"
     },
     {
-      "id": "125",
+      "id": 125,
       "name": "cx-59",
       "health": 68,
       "damage": 97,
@@ -257,11 +299,10 @@
       "catchphrase": "11111011111110000110101011110000101",
       "avatar_url": "https://robohash.org/quisrationeerror.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.303Z",
-      "updated_at": "2018-10-02T19:55:11.303Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.303Z"
     },
     {
-      "id": "126",
+      "id": 126,
       "name": "l_]-00",
       "health": 75,
       "damage": 22,
@@ -273,7 +314,7 @@
       "updated_at": "2018-10-02T19:55:11.327Z"
     },
     {
-      "id": "127",
+      "id": 127,
       "name": "QM-22",
       "health": 48,
       "damage": 34,
@@ -285,7 +326,7 @@
       "updated_at": "2018-10-02T19:55:11.342Z"
     },
     {
-      "id": "128",
+      "id": 128,
       "name": "qT-53",
       "health": 72,
       "damage": 80,
@@ -297,7 +338,7 @@
       "updated_at": "2018-10-02T19:55:11.367Z"
     },
     {
-      "id": "129",
+      "id": 129,
       "name": "E-88",
       "health": 95,
       "damage": 37,
@@ -309,7 +350,7 @@
       "updated_at": "2018-10-02T19:55:11.387Z"
     },
     {
-      "id": "130",
+      "id": 130,
       "name": "Qz-38",
       "health": 63,
       "damage": 99,
@@ -321,7 +362,7 @@
       "updated_at": "2018-10-02T19:55:11.439Z"
     },
     {
-      "id": "131",
+      "id": 131,
       "name": "Q_n-34",
       "health": 92,
       "damage": 40,
@@ -333,7 +374,7 @@
       "updated_at": "2018-10-02T19:55:11.467Z"
     },
     {
-      "id": "132",
+      "id": 132,
       "name": "Q-27",
       "health": 44,
       "damage": 24,
@@ -345,7 +386,7 @@
       "updated_at": "2018-10-02T19:55:11.481Z"
     },
     {
-      "id": "133",
+      "id": 133,
       "name": "ed-84",
       "health": 54,
       "damage": 22,
@@ -357,7 +398,19 @@
       "updated_at": "2018-10-02T19:55:11.501Z"
     },
     {
-      "id": "135",
+      "id": 134,
+      "name": "xG-91",
+      "health": 40,
+      "damage": 33,
+      "armor": 81,
+      "bot_class": "Defender",
+      "catchphrase": "11101000001100011110000010000111101",
+      "avatar_url": "https://robohash.org/oditdoloresullam.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.528Z",
+      "updated_at": "2018-10-02T19:55:11.528Z"
+    },
+    {
+      "id": 135,
       "name": "yLH-96",
       "health": 89,
       "damage": 40,
@@ -369,7 +422,7 @@
       "updated_at": "2018-10-02T19:55:11.544Z"
     },
     {
-      "id": "136",
+      "id": 136,
       "name": "U-01",
       "health": 67,
       "damage": 97,
@@ -381,7 +434,7 @@
       "updated_at": "2018-10-02T19:55:11.573Z"
     },
     {
-      "id": "137",
+      "id": 137,
       "name": "D-04",
       "health": 86,
       "damage": 27,
@@ -393,7 +446,7 @@
       "updated_at": "2018-10-02T19:55:11.595Z"
     },
     {
-      "id": "138",
+      "id": 138,
       "name": "z-43",
       "health": 54,
       "damage": 98,
@@ -405,7 +458,7 @@
       "updated_at": "2018-10-02T19:55:11.615Z"
     },
     {
-      "id": "139",
+      "id": 139,
       "name": "T-30",
       "health": 91,
       "damage": 20,
@@ -417,7 +470,7 @@
       "updated_at": "2018-10-02T19:55:11.639Z"
     },
     {
-      "id": "140",
+      "id": 140,
       "name": "O-89",
       "health": 86,
       "damage": 32,
@@ -429,7 +482,7 @@
       "updated_at": "2018-10-02T19:55:11.650Z"
     },
     {
-      "id": "141",
+      "id": 141,
       "name": "ak-68",
       "health": 74,
       "damage": 39,
@@ -441,7 +494,7 @@
       "updated_at": "2018-10-02T19:55:11.668Z"
     },
     {
-      "id": "142",
+      "id": 142,
       "name": "s-88",
       "health": 91,
       "damage": 30,
@@ -453,7 +506,7 @@
       "updated_at": "2018-10-02T19:55:11.695Z"
     },
     {
-      "id": "143",
+      "id": 143,
       "name": "Un-19",
       "health": 80,
       "damage": 22,
@@ -465,7 +518,7 @@
       "updated_at": "2018-10-02T19:55:11.718Z"
     },
     {
-      "id": "144",
+      "id": 144,
       "name": "ziP-34",
       "health": 87,
       "damage": 23,
@@ -477,7 +530,7 @@
       "updated_at": "2018-10-02T19:55:11.737Z"
     },
     {
-      "id": "145",
+      "id": 145,
       "name": "v[U-90",
       "health": 82,
       "damage": 35,
@@ -489,7 +542,7 @@
       "updated_at": "2018-10-02T19:55:11.745Z"
     },
     {
-      "id": "146",
+      "id": 146,
       "name": "ERJ-02",
       "health": 64,
       "damage": 96,
@@ -501,7 +554,7 @@
       "updated_at": "2018-10-02T19:55:11.756Z"
     },
     {
-      "id": "147",
+      "id": 147,
       "name": "o-26",
       "health": 88,
       "damage": 20,
@@ -513,7 +566,7 @@
       "updated_at": "2018-10-02T19:55:11.767Z"
     },
     {
-      "id": "148",
+      "id": 148,
       "name": "xVP-90",
       "health": 79,
       "damage": 36,
@@ -525,7 +578,7 @@
       "updated_at": "2018-10-02T19:55:11.781Z"
     },
     {
-      "id": "149",
+      "id": 149,
       "name": "I-18",
       "health": 98,
       "damage": 33,
@@ -537,7 +590,7 @@
       "updated_at": "2018-10-02T19:55:11.795Z"
     },
     {
-      "id": "150",
+      "id": 150,
       "name": "St-74",
       "health": 89,
       "damage": 29,
@@ -546,11 +599,46 @@
       "catchphrase": "011000011111000111001100101111110000",
       "avatar_url": "https://robohash.org/necessitatibusquisunt.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.807Z",
-      "updated_at": "2018-10-02T19:55:11.807Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.807Z"
     },
     {
-      "id": "154",
+      "id": 151,
+      "name": "Fd-25",
+      "health": 53,
+      "damage": 27,
+      "armor": 89,
+      "bot_class": "Defender",
+      "catchphrase": "01100010001101100101101011011011100101100110111",
+      "avatar_url": "https://robohash.org/repellatdistinctioitaque.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.820Z",
+      "updated_at": "2018-10-02T19:55:11.820Z"
+    },
+    {
+      "id": 152,
+      "name": "Mx-73",
+      "health": 60,
+      "damage": 24,
+      "armor": 97,
+      "bot_class": "Defender",
+      "catchphrase": "01000111011001110101110100000111110111",
+      "avatar_url": "https://robohash.org/autnesciunteos.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.840Z",
+      "updated_at": "2018-10-02T19:55:11.840Z"
+    },
+    {
+      "id": 153,
+      "name": "B-94",
+      "health": 82,
+      "damage": 33,
+      "armor": 45,
+      "bot_class": "Medic",
+      "catchphrase": "11001011011101010110101100111100010110001010001000",
+      "avatar_url": "https://robohash.org/maximedelenitiveritatis.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:11.862Z",
+      "updated_at": "2018-10-02T19:55:11.862Z"
+    },
+    {
+      "id": 154,
       "name": "Jpf-48",
       "health": 63,
       "damage": 37,
@@ -559,11 +647,10 @@
       "catchphrase": "11001011101101110000110000110110000001",
       "avatar_url": "https://robohash.org/aliquidvoluptatemperspiciatis.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.881Z",
-      "updated_at": "2018-10-02T19:55:11.881Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.881Z"
     },
     {
-      "id": "155",
+      "id": 155,
       "name": "E-26",
       "health": 95,
       "damage": 30,
@@ -575,7 +662,7 @@
       "updated_at": "2018-10-02T19:55:11.903Z"
     },
     {
-      "id": "156",
+      "id": 156,
       "name": "mzl-89",
       "health": 41,
       "damage": 25,
@@ -587,7 +674,7 @@
       "updated_at": "2018-10-02T19:55:11.918Z"
     },
     {
-      "id": "157",
+      "id": 157,
       "name": "_\\-20",
       "health": 78,
       "damage": 85,
@@ -599,7 +686,7 @@
       "updated_at": "2018-10-02T19:55:11.931Z"
     },
     {
-      "id": "158",
+      "id": 158,
       "name": "tkB-34",
       "health": 92,
       "damage": 36,
@@ -611,7 +698,7 @@
       "updated_at": "2018-10-02T19:55:11.943Z"
     },
     {
-      "id": "159",
+      "id": 159,
       "name": "Dq-39",
       "health": 60,
       "damage": 89,
@@ -623,7 +710,7 @@
       "updated_at": "2018-10-02T19:55:11.955Z"
     },
     {
-      "id": "160",
+      "id": 160,
       "name": "VwZ-65",
       "health": 73,
       "damage": 84,
@@ -635,7 +722,7 @@
       "updated_at": "2018-10-02T19:55:11.965Z"
     },
     {
-      "id": "161",
+      "id": 161,
       "name": "X-77",
       "health": 76,
       "damage": 94,
@@ -644,11 +731,10 @@
       "catchphrase": "1011110110000001111100010101001101111110",
       "avatar_url": "https://robohash.org/adeseruntnatus.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.975Z",
-      "updated_at": "2018-10-02T19:55:11.975Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:11.975Z"
     },
     {
-      "id": "162",
+      "id": 162,
       "name": "iSh-78",
       "health": 46,
       "damage": 27,
@@ -660,7 +746,7 @@
       "updated_at": "2018-10-02T19:55:11.982Z"
     },
     {
-      "id": "163",
+      "id": 163,
       "name": "Y-81",
       "health": 87,
       "damage": 29,
@@ -672,7 +758,7 @@
       "updated_at": "2018-10-02T19:55:11.989Z"
     },
     {
-      "id": "164",
+      "id": 164,
       "name": "Gz-50",
       "health": 93,
       "damage": 33,
@@ -684,7 +770,7 @@
       "updated_at": "2018-10-02T19:55:11.995Z"
     },
     {
-      "id": "165",
+      "id": 165,
       "name": "ZSt-34",
       "health": 81,
       "damage": 38,
@@ -696,7 +782,7 @@
       "updated_at": "2018-10-02T19:55:12.001Z"
     },
     {
-      "id": "166",
+      "id": 166,
       "name": "K`-65",
       "health": 90,
       "damage": 36,
@@ -708,7 +794,7 @@
       "updated_at": "2018-10-02T19:55:12.006Z"
     },
     {
-      "id": "167",
+      "id": 167,
       "name": "S-96",
       "health": 84,
       "damage": 29,
@@ -720,7 +806,7 @@
       "updated_at": "2018-10-02T19:55:12.017Z"
     },
     {
-      "id": "168",
+      "id": 168,
       "name": "Ar-02",
       "health": 76,
       "damage": 33,
@@ -732,7 +818,7 @@
       "updated_at": "2018-10-02T19:55:12.024Z"
     },
     {
-      "id": "169",
+      "id": 169,
       "name": "h-71",
       "health": 89,
       "damage": 40,
@@ -744,7 +830,19 @@
       "updated_at": "2018-10-02T19:55:12.043Z"
     },
     {
-      "id": "171",
+      "id": 170,
+      "name": "Qv-45",
+      "health": 41,
+      "damage": 38,
+      "armor": 95,
+      "bot_class": "Medic",
+      "catchphrase": "010001001110010010111110101101001110100110000",
+      "avatar_url": "https://robohash.org/inearumrerum.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:12.072Z",
+      "updated_at": "2018-10-02T19:55:12.072Z"
+    },
+    {
+      "id": 171,
       "name": "`ux-06",
       "health": 49,
       "damage": 100,
@@ -756,7 +854,7 @@
       "updated_at": "2018-10-02T19:55:12.090Z"
     },
     {
-      "id": "172",
+      "id": 172,
       "name": "^zW-05",
       "health": 43,
       "damage": 99,
@@ -768,7 +866,7 @@
       "updated_at": "2018-10-02T19:55:12.107Z"
     },
     {
-      "id": "173",
+      "id": 173,
       "name": "o-93",
       "health": 82,
       "damage": 22,
@@ -780,7 +878,7 @@
       "updated_at": "2018-10-02T19:55:12.127Z"
     },
     {
-      "id": "174",
+      "id": 174,
       "name": "Ayc-42",
       "health": 89,
       "damage": 27,
@@ -792,7 +890,7 @@
       "updated_at": "2018-10-02T19:55:12.139Z"
     },
     {
-      "id": "175",
+      "id": 175,
       "name": "ef-95",
       "health": 44,
       "damage": 38,
@@ -804,7 +902,7 @@
       "updated_at": "2018-10-02T19:55:12.149Z"
     },
     {
-      "id": "176",
+      "id": 176,
       "name": "tL-53",
       "health": 65,
       "damage": 100,
@@ -813,11 +911,10 @@
       "catchphrase": "110001010000010100100110001001010010011",
       "avatar_url": "https://robohash.org/eosquasiblanditiis.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.162Z",
-      "updated_at": "2018-10-02T19:55:12.162Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:12.162Z"
     },
     {
-      "id": "177",
+      "id": 177,
       "name": "u-94",
       "health": 47,
       "damage": 26,
@@ -829,7 +926,7 @@
       "updated_at": "2018-10-02T19:55:12.172Z"
     },
     {
-      "id": "178",
+      "id": 178,
       "name": "Cc-34",
       "health": 49,
       "damage": 27,
@@ -841,7 +938,7 @@
       "updated_at": "2018-10-02T19:55:12.190Z"
     },
     {
-      "id": "179",
+      "id": 179,
       "name": "qX-29",
       "health": 49,
       "damage": 88,
@@ -853,7 +950,7 @@
       "updated_at": "2018-10-02T19:55:12.207Z"
     },
     {
-      "id": "180",
+      "id": 180,
       "name": "\\-94",
       "health": 75,
       "damage": 40,
@@ -865,7 +962,7 @@
       "updated_at": "2018-10-02T19:55:12.230Z"
     },
     {
-      "id": "181",
+      "id": 181,
       "name": "J-87",
       "health": 97,
       "damage": 40,
@@ -874,11 +971,10 @@
       "catchphrase": "1111000010010001110101100101010",
       "avatar_url": "https://robohash.org/architectocorruptiaccusantium.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.245Z",
-      "updated_at": "2018-10-02T19:55:12.245Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:12.245Z"
     },
     {
-      "id": "182",
+      "id": 182,
       "name": "p-44",
       "health": 70,
       "damage": 31,
@@ -890,7 +986,7 @@
       "updated_at": "2018-10-02T19:55:12.271Z"
     },
     {
-      "id": "183",
+      "id": 183,
       "name": "yDg-64",
       "health": 58,
       "damage": 37,
@@ -902,7 +998,7 @@
       "updated_at": "2018-10-02T19:55:12.295Z"
     },
     {
-      "id": "184",
+      "id": 184,
       "name": "u-40",
       "health": 41,
       "damage": 27,
@@ -914,7 +1010,7 @@
       "updated_at": "2018-10-02T19:55:12.314Z"
     },
     {
-      "id": "185",
+      "id": 185,
       "name": "hin-85",
       "health": 63,
       "damage": 80,
@@ -926,7 +1022,7 @@
       "updated_at": "2018-10-02T19:55:12.339Z"
     },
     {
-      "id": "186",
+      "id": 186,
       "name": "G-17",
       "health": 50,
       "damage": 20,
@@ -938,7 +1034,7 @@
       "updated_at": "2018-10-02T19:55:12.348Z"
     },
     {
-      "id": "187",
+      "id": 187,
       "name": "ef-27",
       "health": 74,
       "damage": 38,
@@ -950,7 +1046,7 @@
       "updated_at": "2018-10-02T19:55:12.366Z"
     },
     {
-      "id": "188",
+      "id": 188,
       "name": "]W-40",
       "health": 80,
       "damage": 35,
@@ -962,7 +1058,7 @@
       "updated_at": "2018-10-02T19:55:12.378Z"
     },
     {
-      "id": "189",
+      "id": 189,
       "name": "yXB-04",
       "health": 48,
       "damage": 26,
@@ -974,7 +1070,7 @@
       "updated_at": "2018-10-02T19:55:12.397Z"
     },
     {
-      "id": "190",
+      "id": 190,
       "name": "c-38",
       "health": 93,
       "damage": 35,
@@ -986,7 +1082,7 @@
       "updated_at": "2018-10-02T19:55:12.407Z"
     },
     {
-      "id": "191",
+      "id": 191,
       "name": "h-74",
       "health": 53,
       "damage": 23,
@@ -998,7 +1094,7 @@
       "updated_at": "2018-10-02T19:55:12.417Z"
     },
     {
-      "id": "192",
+      "id": 192,
       "name": "Dls-86",
       "health": 49,
       "damage": 86,
@@ -1010,7 +1106,7 @@
       "updated_at": "2018-10-02T19:55:12.432Z"
     },
     {
-      "id": "193",
+      "id": 193,
       "name": "M-28",
       "health": 40,
       "damage": 93,
@@ -1022,7 +1118,7 @@
       "updated_at": "2018-10-02T19:55:12.447Z"
     },
     {
-      "id": "194",
+      "id": 194,
       "name": "rw-63",
       "health": 60,
       "damage": 98,
@@ -1034,7 +1130,19 @@
       "updated_at": "2018-10-02T19:55:12.463Z"
     },
     {
-      "id": "196",
+      "id": 195,
+      "name": "^-52",
+      "health": 81,
+      "damage": 32,
+      "armor": 48,
+      "bot_class": "Medic",
+      "catchphrase": "0111111001000010010100010110010",
+      "avatar_url": "https://robohash.org/aliasquoest.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:12.475Z",
+      "updated_at": "2018-10-02T19:55:12.475Z"
+    },
+    {
+      "id": 196,
       "name": "obm-92",
       "health": 93,
       "damage": 23,
@@ -1046,7 +1154,31 @@
       "updated_at": "2018-10-02T19:55:12.487Z"
     },
     {
-      "id": "199",
+      "id": 197,
+      "name": "LvH-26",
+      "health": 84,
+      "damage": 26,
+      "armor": 55,
+      "bot_class": "Support",
+      "catchphrase": "11111100001011110000010011111100111100",
+      "avatar_url": "https://robohash.org/commodiidasperiores.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:12.503Z",
+      "updated_at": "2018-10-02T19:55:12.503Z"
+    },
+    {
+      "id": 198,
+      "name": "wr-00",
+      "health": 67,
+      "damage": 84,
+      "armor": 32,
+      "bot_class": "Assault",
+      "catchphrase": "111110001100001011101010110011111001000001",
+      "avatar_url": "https://robohash.org/dictasolutanatus.png?size=300x300&set=set1",
+      "created_at": "2018-10-02T19:55:12.512Z",
+      "updated_at": "2018-10-02T19:55:12.512Z"
+    },
+    {
+      "id": 199,
       "name": "z-06",
       "health": 41,
       "damage": 27,
@@ -1055,11 +1187,10 @@
       "catchphrase": "0101101100101100001100110000101001111010111",
       "avatar_url": "https://robohash.org/sedhicquo.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.525Z",
-      "updated_at": "2018-10-02T19:55:12.525Z",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:12.525Z"
     },
     {
-      "id": "200",
+      "id": 200,
       "name": "fb-83",
       "health": 88,
       "damage": 38,
@@ -1068,62 +1199,7 @@
       "catchphrase": "0111100000101111011000110101110111110000",
       "avatar_url": "https://robohash.org/teneturquaereiciendis.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.537Z",
-      "updated_at": "2018-10-02T19:55:12.537Z",
-      "isInCart": true
-    },
-    {
-      "id": "0fba",
-      "name": "vnm",
-      "category": "nbv",
-      "isInCart": false
-    },
-    {
-      "id": "3232",
-      "name": "",
-      "category": "",
-      "isInCart": true
-    },
-    {
-      "id": "6b62",
-      "name": "",
-      "category": "",
-      "isInCart": false
-    },
-    {
-      "id": "1975",
-      "name": "",
-      "category": "",
-      "isInCart": false
-    },
-    {
-      "id": "99ce",
-      "name": "",
-      "category": "",
-      "isInCart": false
-    },
-    {
-      "id": "2ce3",
-      "name": "",
-      "category": "",
-      "isInCart": false
-    },
-    {
-      "id": "a594",
-      "name": "",
-      "category": "",
-      "isInCart": false
-    },
-    {
-      "id": "ffe9",
-      "name": "",
-      "category": "",
-      "isInCart": true
-    },
-    {
-      "id": "9cf6",
-      "name": "Dembad ",
-      "category": "Fighter",
-      "isInCart": true
+      "updated_at": "2018-10-02T19:55:12.537Z"
     }
   ]
 }
